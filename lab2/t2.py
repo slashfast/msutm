@@ -8,5 +8,6 @@ else:  # 4
     result = a  # 4
     for i in range(1, n + 1):  # 5
         result *= (a - i * n)  # 6
-    print(result)  # 7
-# 8
+    # инкриминирование i, 7
+    print(round(result, 2))  # 8
+# 9
